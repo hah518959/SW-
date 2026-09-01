@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pretendard';
+}
+
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+
+header {
+    width: 1920px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #546B41;
+    display: flex;
+    position: relative;
+}
+
+header> a> p {
+    width: 150px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #99AD7A;
+    color: black;
+}
+
+.book {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    background-color: #DCCCAC;
+}
+
+.user {
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+
+.rent {
+    position: absolute;
+    bottom: 0;
+    left: 350px;
+}
+
+.admin {
+    position: absolute;
+    bottom: 0;
+    left: 500px;
+}
+
+.main {
+    display: flex;
+    background-color: #DCCCAC;
+}
+
+.booklist {
+    width: 1200px;
+    height: 1200px;
+    margin-top: 50px;
+    /* erease */
+    background-color: rgb(255, 209, 209);
+    margin-left: 100px;
+    border: 5px solid #333;
+    overflow-y: auto;
+    position: relative;
+}
+
+.booklist > div {
+    width: 1170px;
+    height: 130px;
+    /* erease */
+    background-color: #FFF8EC;
+    border-bottom: 1px solid #333;
+    position: relative;
+}
+
+.booklist> div> a > img {
+    width: 74px;
+    height: 105px;
+    border: 1px solid #333;
+    position: absolute;
+    top: 12.5px;
+    left: 12.5px;
+}
+
+.booklist > div> .info {
+    width: 300px;
+    height: 100px;
+    /* background-color: rgb(134, 216, 189); */
+    position: absolute;
+    top: 25px;
+    left: 120px;
+}
+
+.booklist>div>.info>a {
+    color: black;
+    text-decoration: none;
+}
+
+.booklist>div>.info>p {
+    width: 150px;
+    height: 50px;
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: -700px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    /* background-color: red; */
+}
+
+.wrap1 {
+    position: absolute;
+    bottom: 0px;
+    right: -664px;
+}
+
+.bookinfo {
+    width: 520px;
+    height: 1000px;
+    /* erease */
+    background-color: #FFF8EC;
+    margin-right: 100px;
+    margin-top: 50px;
+    border: 5px solid #333;
+    position: relative;
+}
+
+.bookinfo>img {
+    width: 222px; 
+    height: 315px;
+    border: 2px solid #333;
+    position: absolute;
+    top: 70px;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.bookinfo > p {
+    width: 300px;
+    height: 30px;
+    display: block;
+    /* background-color: red; */
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.bookinfo > .bookname {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+}
+
+.ur {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 10px;
+    transform: translate(-50%);
+    position: absolute;
+    top: 680px;
+    left: 50%;
+    text-align: center;
+    line-height: 36px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
